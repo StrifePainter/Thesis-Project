@@ -7,6 +7,9 @@
 			"files": [
 				"C:/Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap",
 				"C:/Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Characters/Monk/Blueprints/playercharacterbp.uasset",
+				"C:/Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Characters/Monk/1_atk/monkattack.uasset",
+				"C:/Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Characters/Monk/Animations/AnimSequences/MonkAttack.uasset",
+				"C:/Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Characters/Monk/Animations/MonkAnimationBlueprint.uasset",
 				"C:/Users/Strifeling/Documents/Unreal Projects/FightgameUnrealUni/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
 			]
 		}

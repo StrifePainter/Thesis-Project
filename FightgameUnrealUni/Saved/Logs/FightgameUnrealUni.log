@@ -4769,3 +4769,21 @@ UnknownFunction []
 [2023.11.17-22.21.19:599][909]LogFileHelpers: InternalPromptForCheckoutAndSave took 663 ms (total: 5.29 sec)
 [2023.11.17-22.21.19:604][909]AssetCheck: New page: Asset Save: MovePlayer2_AI
 [2023.11.17-22.21.19:604][909]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Controls/MovePlayer2_AI.MovePlayer2_AI
+[2023.11.17-22.22.03:324][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.17-22.22.06:160][ 57]LogSlate: Window 'Save Content' being destroyed
+[2023.11.17-22.22.08:229][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-22.22.08:433][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.11.17-22.22.08:459][ 66]LogSavePackage: Moving output files for package: /Game/Maps/FightingGame
+[2023.11.17-22.22.08:461][ 66]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGame1FA2ABA247B2D59428D60D938C776B09.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap'
+[2023.11.17-22.22.08:475][ 66]LogFileHelpers: Saving map 'FightingGame' took 0.099
+[2023.11.17-22.22.08:526][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 297 ms (total: 5.59 sec)
+[2023.11.17-22.22.08:530][ 66]AssetCheck: New page: Asset Save: FightingGame
+[2023.11.17-22.22.08:530][ 66]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FightingGame.FightingGame
+[2023.11.17-22.22.08:798][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-22.22.09:067][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.11.17-22.22.09:093][ 70]LogSavePackage: Moving output files for package: /Game/Maps/FightingGame
+[2023.11.17-22.22.09:094][ 70]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGame026F800A4FA53D1F0441E884EA46C32A.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap'
+[2023.11.17-22.22.09:109][ 70]LogFileHelpers: Saving map 'FightingGame' took 0.092
+[2023.11.17-22.22.09:155][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 356 ms (total: 5.95 sec)
+[2023.11.17-22.22.09:158][ 70]AssetCheck: New page: Asset Save: FightingGame
+[2023.11.17-22.22.09:158][ 70]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FightingGame.FightingGame

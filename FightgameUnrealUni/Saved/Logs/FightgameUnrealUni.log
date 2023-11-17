@@ -3636,3 +3636,310 @@ UnknownFunction []
 [2023.11.10-22.02.01:265][956]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/Animations/AnimSequences/MonkAirAttack_Auto6
 [2023.11.10-22.02.01:266][956]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MonkAirAttack_Auto64460DEEA4E00E953CCC409B58D3A27A3.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/Animations/AnimSequences/MonkAirAttack_Auto6.uasset'
 [2023.11.10-22.02.01:266][956]LogFileHelpers: Auto-saving content packages took 0.100
+[2023.11.10-22.11.03:600][584]LogDerivedDataCache: C:/Users/justa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.049 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1758 files in 2632 folders with total size 64 MiB.
+[2023.11.10-22.34.18:758][803]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.10-22.49.28:571][803]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=42300
+[2023.11.10-22.49.29:204][804]LogHttp: Warning: 00000BD527CA0A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.10-22.49.29:204][804]LogHttp: Warning: 00000BD527CA0A00: libcurl info message cache 0 (Too old connection (952 seconds idle), disconnect it)
+[2023.11.10-22.49.29:204][804]LogHttp: Warning: 00000BD527CA0A00: libcurl info message cache 1 (Connection 3 seems to be dead)
+[2023.11.10-22.49.29:204][804]LogHttp: Warning: 00000BD527CA0A00: libcurl info message cache 2 (Closing connection 3)
+[2023.11.10-22.49.29:204][804]LogHttp: Warning: 00000BD527CA0A00: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.11.10-22.49.29:204][804]LogHttp: Warning: 00000BD527CA0A00: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.10-22.49.29:204][804]LogHttp: Warning: 00000BD527CA0A00: libcurl info message cache 5 (Closing connection 4)
+[2023.11.10-22.49.29:204][804]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B37492D-4070-1F5C-FC82-769F866680FF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=9b6d20964edec6b5cb5cbb9c3e7be9e1%7Cfcf07b044c7c4fe6a5d35e9ed3232ac1%7C5863dff0-80bc-4280-9652-706c8391e28d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.10-22.49.29:210][804]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{77b8627f-3367-4677-a354-11d2093d18d6}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=243.73
+[2023.11.10-22.49.29:210][804]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.10-22.49.29:212][804]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.14-14.39.17:872][811]LogHttp: Warning: 00000BD527CA2300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.14-14.39.17:872][811]LogHttp: Warning: 00000BD527CA2300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.14-14.39.17:872][811]LogHttp: Warning: 00000BD527CA2300: libcurl info message cache 1 (Closing connection 5)
+[2023.11.14-14.39.17:872][811]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B37492D-4070-1F5C-FC82-769F866680FF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=9b6d20964edec6b5cb5cbb9c3e7be9e1%7Cfcf07b044c7c4fe6a5d35e9ed3232ac1%7C5863dff0-80bc-4280-9652-706c8391e28d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.14-14.39.22:005][824]LogHttp: Warning: 00000BD527CA7300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.14-14.39.22:005][824]LogHttp: Warning: 00000BD527CA7300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.14-14.39.22:005][824]LogHttp: Warning: 00000BD527CA7300: libcurl info message cache 1 (Closing connection 6)
+[2023.11.14-14.39.22:005][824]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B37492D-4070-1F5C-FC82-769F866680FF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=9b6d20964edec6b5cb5cbb9c3e7be9e1%7Cfcf07b044c7c4fe6a5d35e9ed3232ac1%7C5863dff0-80bc-4280-9652-706c8391e28d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.14-14.57.45:634][426]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [913 Seconds] waiting for h/w. InstanceID=1
+[2023.11.14-14.57.46:158][426]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=42300
+[2023.11.14-14.57.46:494][427]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{77b8627f-3367-4677-a354-11d2093d18d6}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=257.85
+[2023.11.14-14.57.46:495][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.14-14.57.46:497][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.14-14.57.46:512][428]LogHttp: Warning: 00000BD527CAA000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.14-14.57.46:512][428]LogHttp: Warning: 00000BD527CAA000: libcurl info message cache 0 (Too old connection (912 seconds idle), disconnect it)
+[2023.11.14-14.57.46:512][428]LogHttp: Warning: 00000BD527CAA000: libcurl info message cache 1 (Connection 7 seems to be dead)
+[2023.11.14-14.57.46:512][428]LogHttp: Warning: 00000BD527CAA000: libcurl info message cache 2 (Closing connection 7)
+[2023.11.14-14.57.46:512][428]LogHttp: Warning: 00000BD527CAA000: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.11.14-14.57.46:513][428]LogHttp: Warning: 00000BD527CAA000: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.14-14.57.46:513][428]LogHttp: Warning: 00000BD527CAA000: libcurl info message cache 5 (Closing connection 8)
+[2023.11.14-14.57.46:513][428]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B37492D-4070-1F5C-FC82-769F866680FF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=9b6d20964edec6b5cb5cbb9c3e7be9e1%7Cfcf07b044c7c4fe6a5d35e9ed3232ac1%7C5863dff0-80bc-4280-9652-706c8391e28d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.17-20.34.10:441][435]LogHttp: Warning: 00000BD527CABE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.17-20.34.10:441][435]LogHttp: Warning: 00000BD527CABE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.17-20.34.10:441][435]LogHttp: Warning: 00000BD527CABE00: libcurl info message cache 1 (Closing connection 9)
+[2023.11.17-20.34.10:441][435]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B37492D-4070-1F5C-FC82-769F866680FF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=9b6d20964edec6b5cb5cbb9c3e7be9e1%7Cfcf07b044c7c4fe6a5d35e9ed3232ac1%7C5863dff0-80bc-4280-9652-706c8391e28d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.17-20.49.26:127][408]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-20.49.26:180][408]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.11.17-20.49.26:225][408]LogPlayLevel: [PlayLevel] Compiling playercharacterbp before play...
+[2023.11.17-20.49.26:466][408]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.11.17-20.49.26:472][408]LogPlayLevel: PlayLevel: Blueprint regeneration took 293 ms (1 blueprints)
+[2023.11.17-20.49.26:472][408]PIE: New page: PIE session: FightingGame (Nov 17, 2023, 10:49:26 AM)
+[2023.11.17-20.49.26:473][408]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FightingGame
+[2023.11.17-20.49.26:478][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004964s)
+[2023.11.17-20.49.26:478][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FightingGame.FightingGame to /Game/Maps/UEDPIE_0_FightingGame.FightingGame (0.005167s)
+[2023.11.17-20.49.26:494][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.17-20.49.26:496][408]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-20.49.26:496][408]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-20.49.26:497][408]LogAIModule: Creating AISystem for world FightingGame
+[2023.11.17-20.49.26:498][408]LogPlayLevel: PIE: World Init took: (0.002306s)
+[2023.11.17-20.49.26:498][408]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.11.17-20.49.26:498][408]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-20.49.26:498][408]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-20.49.26:498][408]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-20.49.26:498][408]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-20.49.26:498][408]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-20.49.26:498][408]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-20.49.26:498][408]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-20.49.26:498][408]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-20.49.26:500][408]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-20.49.26:500][408]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-20.49.26:500][408]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-20.49.26:503][408]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-20.49.26:562][408]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.17-20.49.26:564][408]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-20.49.26:564][408]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-20.49.26:564][408]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-20.49.26:568][408]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.11.17-20.49.26:568][408]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.11.17-20.49.26:570][408]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.11.17-20.49.26:570][408]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.11.17-20.49.26:570][408]LogInit: FAudioDevice initialized with ID 28.
+[2023.11.17-20.49.26:570][408]LogAudio: Display: Audio Device (ID: 28) registered with world 'FightingGame'.
+[2023.11.17-20.49.26:570][408]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2023.11.17-20.49.26:576][408]LogLoad: Game class is 'fightinggamemode_C'
+[2023.11.17-20.49.26:578][408]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 0) at 2023.11.17-15.49.26
+[2023.11.17-20.49.26:578][408]LogWorld: Bringing up level for play took: 0.001459
+[2023.11.17-20.49.26:581][408]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.11.17-20.49.26:585][408]PIE: Server logged in
+[2023.11.17-20.49.26:586][408]PIE: Play in editor total start time 0.431 seconds.
+[2023.11.17-20.49.50:400][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-20.49.50:400][379]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.11.17-20.49.50:400][379]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-20.49.50:400][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-20.49.50:419][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-20.49.50:424][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-20.49.50:443][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-20.49.50:443][379]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2023.11.17-20.49.50:444][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.11.17-20.49.50:446][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.11.17-20.49.50:460][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.11.17-20.49.50:750][380]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.11.17-20.49.50:830][380]LogViewport: Scene viewport resized to 601x158, mode Windowed.
+[2023.11.17-20.51.09:858][685]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.17-20.54.39:542][685]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=42300
+[2023.11.17-20.54.39:846][686]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{77b8627f-3367-4677-a354-11d2093d18d6}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=251.46
+[2023.11.17-20.54.39:846][686]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.17-20.54.39:851][686]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.17-20.57.43:261][ 62]BlueprintLog: New page: Compile MonkAnimationBlueprint
+[2023.11.17-20.57.43:343][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.11.17-20.57.50:531][173]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-20.57.50:564][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-20.57.50:564][173]PIE: New page: PIE session: FightingGame (Nov 17, 2023, 10:57:50 AM)
+[2023.11.17-20.57.50:565][173]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FightingGame
+[2023.11.17-20.57.50:576][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010684s)
+[2023.11.17-20.57.50:577][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FightingGame.FightingGame to /Game/Maps/UEDPIE_0_FightingGame.FightingGame (0.010805s)
+[2023.11.17-20.57.50:616][173]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2023.11.17-20.57.50:618][173]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-20.57.50:618][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-20.57.50:620][173]LogAIModule: Creating AISystem for world FightingGame
+[2023.11.17-20.57.50:621][173]LogPlayLevel: PIE: World Init took: (0.001747s)
+[2023.11.17-20.57.50:621][173]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.11.17-20.57.50:621][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-20.57.50:621][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-20.57.50:621][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-20.57.50:621][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-20.57.50:621][173]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-20.57.50:621][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-20.57.50:621][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-20.57.50:621][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-20.57.50:622][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-20.57.50:622][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-20.57.50:622][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-20.57.50:625][173]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-20.57.50:735][173]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.17-20.57.50:739][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-20.57.50:739][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-20.57.50:739][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-20.57.50:743][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.11.17-20.57.50:743][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.11.17-20.57.50:750][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.11.17-20.57.50:750][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.11.17-20.57.50:751][173]LogInit: FAudioDevice initialized with ID 29.
+[2023.11.17-20.57.50:751][173]LogAudio: Display: Audio Device (ID: 29) registered with world 'FightingGame'.
+[2023.11.17-20.57.50:751][173]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2023.11.17-20.57.50:757][173]LogLoad: Game class is 'fightinggamemode_C'
+[2023.11.17-20.57.50:759][173]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 60) at 2023.11.17-15.57.50
+[2023.11.17-20.57.50:760][173]LogWorld: Bringing up level for play took: 0.002605
+[2023.11.17-20.57.50:773][173]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.11.17-20.57.50:778][173]PIE: Server logged in
+[2023.11.17-20.57.50:780][173]PIE: Play in editor total start time 0.216 seconds.
+[2023.11.17-20.58.11:752][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-20.58.11:752][765]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.11.17-20.58.11:752][765]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-20.58.11:752][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-20.58.11:813][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-20.58.11:826][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-20.58.11:871][765]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-20.58.11:871][765]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2023.11.17-20.58.11:871][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.11.17-20.58.11:876][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.11.17-20.58.11:894][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-20.58.11:900][765]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2023.11.17-20.58.12:286][766]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.11.17-20.58.12:303][766]LogViewport: Scene viewport resized to 601x158, mode Windowed.
+[2023.11.17-20.58.16:595][843]LogEditorTransaction: Undo Change Number Pin Value
+[2023.11.17-20.58.20:840][881]BlueprintLog: New page: Compile MonkAnimationBlueprint
+[2023.11.17-20.58.20:892][881]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2023.11.17-21.05.22:739][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.11.17-21.05.22:783][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/FightingGame_Auto7
+[2023.11.17-21.05.22:783][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGame_Auto7203BA9794E0853875E3C46AB059EE12C.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Maps/FightingGame_Auto7.umap'
+[2023.11.17-21.05.22:793][ 38]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Maps/FightingGame_Auto7.umap is in the /Temp path, will not scan.
+[2023.11.17-21.05.22:793][ 38]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/FightingGame_Auto7 is in the /Temp path, will not scan.
+[2023.11.17-21.05.22:793][ 38]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/FightingGame_Auto7 is in the /Temp path, will not scan.
+[2023.11.17-21.05.22:794][ 38]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FightingGame' took 0.083
+[2023.11.17-21.05.22:794][ 38]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.083
+[2023.11.17-21.05.22:794][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Controls/Fighting_IMC] ([1] browsable assets)...
+[2023.11.17-21.05.22:795][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Controls/Fighting_IMC]
+[2023.11.17-21.05.22:804][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Controls/Fighting_IMC_Auto7
+[2023.11.17-21.05.22:804][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Fighting_IMC_Auto7977787CA4F8A938E3A1D8CA351CC949E.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Controls/Fighting_IMC_Auto7.uasset'
+[2023.11.17-21.05.22:806][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/1_atk/1_atk_1_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:806][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/1_atk/1_atk_1_Sprite]
+[2023.11.17-21.05.22:814][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/1_atk/1_atk_1_Sprite_Auto7
+[2023.11.17-21.05.22:814][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/1_atk_1_Sprite_Auto7465D9932432F227204D925837496F1E6.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/1_atk/1_atk_1_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:816][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/1_atk/1_atk_2_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:816][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/1_atk/1_atk_2_Sprite]
+[2023.11.17-21.05.22:825][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/1_atk/1_atk_2_Sprite_Auto7
+[2023.11.17-21.05.22:825][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/1_atk_2_Sprite_Auto7B193670B40F2676B7A590DB57CC45999.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/1_atk/1_atk_2_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:827][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/1_atk/1_atk_3_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:828][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/1_atk/1_atk_3_Sprite]
+[2023.11.17-21.05.22:837][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/1_atk/1_atk_3_Sprite_Auto7
+[2023.11.17-21.05.22:837][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/1_atk_3_Sprite_Auto79D5648784B544D14796348BAD15CC5BB.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/1_atk/1_atk_3_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:838][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/1_atk/1_atk_4_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:838][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/1_atk/1_atk_4_Sprite]
+[2023.11.17-21.05.22:845][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/1_atk/1_atk_4_Sprite_Auto7
+[2023.11.17-21.05.22:845][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/1_atk_4_Sprite_Auto7357DF714461D450C68E526B43312BE71.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/1_atk/1_atk_4_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:846][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/1_atk/1_atk_5_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:846][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/1_atk/1_atk_5_Sprite]
+[2023.11.17-21.05.22:853][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/1_atk/1_atk_5_Sprite_Auto7
+[2023.11.17-21.05.22:853][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/1_atk_5_Sprite_Auto7391B32FA4029246E58E781926512553D.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/1_atk/1_atk_5_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:855][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/1_atk/1_atk_6_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:855][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/1_atk/1_atk_6_Sprite]
+[2023.11.17-21.05.22:863][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/1_atk/1_atk_6_Sprite_Auto7
+[2023.11.17-21.05.22:863][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/1_atk_6_Sprite_Auto70DC41E224BCA364F0B4ADBA20890E347.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/1_atk/1_atk_6_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:865][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/Animations/AnimSequences/MonkAttack] ([1] browsable assets)...
+[2023.11.17-21.05.22:865][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/Animations/AnimSequences/MonkAttack]
+[2023.11.17-21.05.22:872][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/Animations/AnimSequences/MonkAttack_Auto7
+[2023.11.17-21.05.22:873][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MonkAttack_Auto769B664C14ACA2C40964B329B4932E448.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/Animations/AnimSequences/MonkAttack_Auto7.uasset'
+[2023.11.17-21.05.22:874][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Controls/Attack_IA] ([1] browsable assets)...
+[2023.11.17-21.05.22:874][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Controls/Attack_IA]
+[2023.11.17-21.05.22:879][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Controls/Attack_IA_Auto7
+[2023.11.17-21.05.22:879][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Attack_IA_Auto7586A6A41444BBA4EB614FF868181F2EE.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Controls/Attack_IA_Auto7.uasset'
+[2023.11.17-21.05.22:880][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/air_atk/air_atk_1_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:880][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/air_atk/air_atk_1_Sprite]
+[2023.11.17-21.05.22:887][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/air_atk/air_atk_1_Sprite_Auto7
+[2023.11.17-21.05.22:889][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/air_atk_1_Sprite_Auto7C9A8A4264B3EE68EF84D40912E0074AD.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/air_atk/air_atk_1_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:890][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/air_atk/air_atk_2_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:891][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/air_atk/air_atk_2_Sprite]
+[2023.11.17-21.05.22:897][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/air_atk/air_atk_2_Sprite_Auto7
+[2023.11.17-21.05.22:897][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/air_atk_2_Sprite_Auto76139AC50411287D2ADFA01B07A167DB4.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/air_atk/air_atk_2_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:899][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/air_atk/air_atk_3_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:899][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/air_atk/air_atk_3_Sprite]
+[2023.11.17-21.05.22:909][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/air_atk/air_atk_3_Sprite_Auto7
+[2023.11.17-21.05.22:910][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/air_atk_3_Sprite_Auto76B3BD4DF4BC6513EE8FBE38458C07692.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/air_atk/air_atk_3_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:913][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/air_atk/air_atk_4_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:913][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/air_atk/air_atk_4_Sprite]
+[2023.11.17-21.05.22:921][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/air_atk/air_atk_4_Sprite_Auto7
+[2023.11.17-21.05.22:921][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/air_atk_4_Sprite_Auto7A0FB529A4B0E3E931BF38AA12D424E5A.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/air_atk/air_atk_4_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:923][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/air_atk/air_atk_5_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:923][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/air_atk/air_atk_5_Sprite]
+[2023.11.17-21.05.22:930][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/air_atk/air_atk_5_Sprite_Auto7
+[2023.11.17-21.05.22:930][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/air_atk_5_Sprite_Auto7B54A3FA74716CB29C25EF4A38B1C2CD7.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/air_atk/air_atk_5_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:931][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/air_atk/air_atk_6_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:931][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/air_atk/air_atk_6_Sprite]
+[2023.11.17-21.05.22:939][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/air_atk/air_atk_6_Sprite_Auto7
+[2023.11.17-21.05.22:939][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/air_atk_6_Sprite_Auto7773FBCD14BB9EED8DB61FEB79EA3732A.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/air_atk/air_atk_6_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:941][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/air_atk/air_atk_7_Sprite] ([1] browsable assets)...
+[2023.11.17-21.05.22:941][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/air_atk/air_atk_7_Sprite]
+[2023.11.17-21.05.22:946][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/air_atk/air_atk_7_Sprite_Auto7
+[2023.11.17-21.05.22:946][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/air_atk_7_Sprite_Auto7220D0A554BD24B64DE0CAD8E34016BA1.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/air_atk/air_atk_7_Sprite_Auto7.uasset'
+[2023.11.17-21.05.22:947][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/air_atk/MonkAirAttack] ([1] browsable assets)...
+[2023.11.17-21.05.22:947][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/air_atk/MonkAirAttack]
+[2023.11.17-21.05.22:956][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/air_atk/MonkAirAttack_Auto7
+[2023.11.17-21.05.22:956][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MonkAirAttack_Auto7ADD41C894904BD33CDEF258499C5A1D6.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/air_atk/MonkAirAttack_Auto7.uasset'
+[2023.11.17-21.05.22:957][ 38]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Monk/Animations/AnimSequences/MonkAirAttack] ([1] browsable assets)...
+[2023.11.17-21.05.22:957][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Monk/Animations/AnimSequences/MonkAirAttack]
+[2023.11.17-21.05.22:964][ 38]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Monk/Animations/AnimSequences/MonkAirAttack_Auto7
+[2023.11.17-21.05.22:964][ 38]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MonkAirAttack_Auto7D91ED4EC4C670C58CE2120BC4F0AEA16.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/Characters/Monk/Animations/AnimSequences/MonkAirAttack_Auto7.uasset'
+[2023.11.17-21.05.22:965][ 38]LogFileHelpers: Auto-saving content packages took 0.171
+[2023.11.17-21.05.39:409][180]BlueprintLog: New page: Compile playercharacterbp
+[2023.11.17-21.05.39:511][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.11.17-21.05.49:081][320]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-21.05.49:111][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-21.05.49:111][320]PIE: New page: PIE session: FightingGame (Nov 17, 2023, 11:05:49 AM)
+[2023.11.17-21.05.49:112][320]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FightingGame
+[2023.11.17-21.05.49:123][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010982s)
+[2023.11.17-21.05.49:123][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FightingGame.FightingGame to /Game/Maps/UEDPIE_0_FightingGame.FightingGame (0.011125s)
+[2023.11.17-21.05.49:170][320]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2023.11.17-21.05.49:176][320]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-21.05.49:176][320]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-21.05.49:177][320]LogAIModule: Creating AISystem for world FightingGame
+[2023.11.17-21.05.49:178][320]LogPlayLevel: PIE: World Init took: (0.002312s)
+[2023.11.17-21.05.49:178][320]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.11.17-21.05.49:178][320]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-21.05.49:178][320]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-21.05.49:178][320]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-21.05.49:178][320]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-21.05.49:178][320]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-21.05.49:178][320]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.17-21.05.49:179][320]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-21.05.49:179][320]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-21.05.49:179][320]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-21.05.49:179][320]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-21.05.49:179][320]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-21.05.49:182][320]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-21.05.49:326][320]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.17-21.05.49:327][320]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-21.05.49:327][320]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-21.05.49:327][320]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-21.05.49:328][320]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.11.17-21.05.49:328][320]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2023.11.17-21.05.49:331][320]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.11.17-21.05.49:331][320]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.11.17-21.05.49:331][320]LogInit: FAudioDevice initialized with ID 30.
+[2023.11.17-21.05.49:331][320]LogAudio: Display: Audio Device (ID: 30) registered with world 'FightingGame'.
+[2023.11.17-21.05.49:331][320]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2023.11.17-21.05.49:335][320]LogLoad: Game class is 'fightinggamemode_C'
+[2023.11.17-21.05.49:337][320]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 0) at 2023.11.17-16.05.49
+[2023.11.17-21.05.49:337][320]LogWorld: Bringing up level for play took: 0.001084
+[2023.11.17-21.05.49:342][320]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.11.17-21.05.49:347][320]PIE: Server logged in
+[2023.11.17-21.05.49:350][320]PIE: Play in editor total start time 0.241 seconds.
+[2023.11.17-21.06.01:430][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-21.06.01:430][631]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.11.17-21.06.01:431][631]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-21.06.01:431][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-21.06.01:473][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-21.06.01:480][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-21.06.01:509][631]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-21.06.01:509][631]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2023.11.17-21.06.01:510][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.11.17-21.06.01:514][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.11.17-21.06.01:529][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-21.06.01:534][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.11.17-21.06.01:806][632]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.11.17-21.06.01:820][632]LogViewport: Scene viewport resized to 601x158, mode Windowed.
+[2023.11.17-21.06.07:719][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-21.06.08:034][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.17-21.06.08:057][726]LogSavePackage: Moving output files for package: /Game/Maps/FightingGame
+[2023.11.17-21.06.08:058][726]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGameA742EF154F87477E1A8021A5999C2A2B.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap'
+[2023.11.17-21.06.08:080][726]LogFileHelpers: Saving map 'FightingGame' took 0.122
+[2023.11.17-21.06.08:129][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 410 ms (total: 3.39 sec)
+[2023.11.17-21.06.08:135][726]AssetCheck: New page: Asset Save: FightingGame
+[2023.11.17-21.06.08:135][726]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FightingGame.FightingGame

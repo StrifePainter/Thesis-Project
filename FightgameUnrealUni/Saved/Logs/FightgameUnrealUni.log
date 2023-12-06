@@ -2539,3 +2539,79 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.12.06-21.58.12:907][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 391 ms (total: 7.14 sec)
 [2023.12.06-21.58.12:912][584]AssetCheck: New page: Asset Save: playercharacterbp
 [2023.12.06-21.58.12:912][584]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Monk/Blueprints/playercharacterbp.playercharacterbp
+[2023.12.06-22.00.28:096][135]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-22.00.28:659][135]LogSavePackage: Moving output files for package: /Game/Characters/Monk/Blueprints/playercharacterbp
+[2023.12.06-22.00.28:660][135]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/playercharacterbpDFB83695492C367391BD978C1A03856A.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Characters/Monk/Blueprints/playercharacterbp.uasset'
+[2023.12.06-22.00.28:711][135]LogFileHelpers: InternalPromptForCheckoutAndSave took 613 ms (total: 7.75 sec)
+[2023.12.06-22.00.28:714][135]AssetCheck: New page: Asset Save: playercharacterbp
+[2023.12.06-22.00.28:714][135]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Monk/Blueprints/playercharacterbp.playercharacterbp
+[2023.12.06-22.00.30:475][147]BlueprintLog: New page: Compile playercharacterbp
+[2023.12.06-22.00.30:682][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.12.06-22.00.32:141][155]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-22.00.32:727][155]LogSavePackage: Moving output files for package: /Game/Characters/Monk/Blueprints/playercharacterbp
+[2023.12.06-22.00.32:728][155]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/playercharacterbpA267055A4AF56C8A3E9F659EAAACEEF3.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Characters/Monk/Blueprints/playercharacterbp.uasset'
+[2023.12.06-22.00.32:777][155]LogFileHelpers: InternalPromptForCheckoutAndSave took 635 ms (total: 8.39 sec)
+[2023.12.06-22.00.32:781][155]AssetCheck: New page: Asset Save: playercharacterbp
+[2023.12.06-22.00.32:781][155]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/Monk/Blueprints/playercharacterbp.playercharacterbp
+[2023.12.06-22.00.35:395][172]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.06-22.00.35:411][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.06-22.00.35:411][172]PIE: New page: PIE session: FightingGame (Dec 6, 2023, 12:00:35 PM)
+[2023.12.06-22.00.35:411][172]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.06-22.00.35:417][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006378s)
+[2023.12.06-22.00.35:417][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FightingGame.FightingGame to /Game/Maps/UEDPIE_0_FightingGame.FightingGame (0.006433s)
+[2023.12.06-22.00.35:767][172]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2023.12.06-22.00.35:779][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-22.00.35:779][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-22.00.35:781][172]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.06-22.00.35:782][172]LogPlayLevel: PIE: World Init took: (0.003333s)
+[2023.12.06-22.00.35:782][172]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.12.06-22.00.35:782][172]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-22.00.35:782][172]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-22.00.35:782][172]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-22.00.35:782][172]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-22.00.35:782][172]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-22.00.35:782][172]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-22.00.35:782][172]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-22.00.35:782][172]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-22.00.35:784][172]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-22.00.35:785][172]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-22.00.35:785][172]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-22.00.35:789][172]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-22.00.35:884][172]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.06-22.00.35:885][172]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-22.00.35:885][172]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-22.00.35:885][172]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-22.00.35:886][172]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.12.06-22.00.35:886][172]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.12.06-22.00.35:888][172]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.12.06-22.00.35:888][172]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.12.06-22.00.35:889][172]LogInit: FAudioDevice initialized with ID 15.
+[2023.12.06-22.00.35:889][172]LogAudio: Display: Audio Device (ID: 15) registered with world 'FightingGame'.
+[2023.12.06-22.00.35:889][172]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.06-22.00.35:892][172]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.06-22.00.35:893][172]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 60) at 2023.12.06-17.00.35
+[2023.12.06-22.00.35:894][172]LogWorld: Bringing up level for play took: 0.000868
+[2023.12.06-22.00.35:896][172]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.12.06-22.00.35:902][172]PIE: Server logged in
+[2023.12.06-22.00.35:902][172]PIE: Play in editor total start time 0.496 seconds.
+[2023.12.06-22.00.50:603][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-22.00.50:603][252]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.06-22.00.50:604][252]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-22.00.50:604][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-22.00.50:951][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-22.00.50:957][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-22.00.50:980][252]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-22.00.50:980][252]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.06-22.00.50:980][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.06-22.00.50:983][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.06-22.00.50:992][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-22.00.50:996][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.12.06-22.00.51:472][253]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.12.06-22.00.53:793][263]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-22.00.54:539][263]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.12.06-22.00.54:591][263]LogSavePackage: Moving output files for package: /Game/Maps/FightingGame
+[2023.12.06-22.00.54:592][263]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGameD945C8274C6E888924C2F78DBF9E74C4.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap'
+[2023.12.06-22.00.54:608][263]LogFileHelpers: Saving map 'FightingGame' took 0.143
+[2023.12.06-22.00.54:651][263]LogFileHelpers: InternalPromptForCheckoutAndSave took 858 ms (total: 9.25 sec)
+[2023.12.06-22.00.54:655][263]AssetCheck: New page: Asset Save: FightingGame
+[2023.12.06-22.00.54:655][263]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FightingGame.FightingGame

@@ -1848,3 +1848,1132 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.12.07-18.33.39:118][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 438 ms (total: 6.18 sec)
 [2023.12.07-18.33.39:124][630]AssetCheck: New page: Asset Save: FightingGame
 [2023.12.07-18.33.39:124][630]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FightingGame.FightingGame
+[2023.12.07-18.35.39:415][302]BlueprintLog: New page: Compile MainMenu_WB
+[2023.12.07-18.35.39:467][302]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2023.12.07-18.35.40:013][308]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-18.35.40:387][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu_WB" FILE="../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset" SILENT=true
+[2023.12.07-18.35.40:409][308]LogSavePackage: Moving output files for package: /Game/UI/MainMenu_WB
+[2023.12.07-18.35.40:412][308]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MainMenu_WBA3F20505436DDD966E6126B49B869687.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset'
+[2023.12.07-18.35.40:460][308]LogFileHelpers: InternalPromptForCheckoutAndSave took 447 ms (total: 6.63 sec)
+[2023.12.07-18.35.40:463][308]AssetCheck: New page: Asset Save: MainMenu_WB
+[2023.12.07-18.35.40:463][308]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/MainMenu_WB.MainMenu_WB
+[2023.12.07-18.35.46:886][401]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-18.35.46:903][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-18.35.46:903][401]PIE: New page: PIE session: FightingGame (Dec 7, 2023, 8:35:46 AM)
+[2023.12.07-18.35.46:903][401]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-18.35.46:920][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017410s)
+[2023.12.07-18.35.46:920][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FightingGame.FightingGame to /Game/Maps/UEDPIE_0_FightingGame.FightingGame (0.017538s)
+[2023.12.07-18.35.46:951][401]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2023.12.07-18.35.46:957][401]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.35.46:957][401]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.35.46:958][401]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-18.35.46:959][401]LogPlayLevel: PIE: World Init took: (0.003080s)
+[2023.12.07-18.35.46:959][401]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.12.07-18.35.46:960][401]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-18.35.46:960][401]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-18.35.46:960][401]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-18.35.46:960][401]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-18.35.46:960][401]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-18.35.46:960][401]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-18.35.46:960][401]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-18.35.46:960][401]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-18.35.46:961][401]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-18.35.46:961][401]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-18.35.46:961][401]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-18.35.46:966][401]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-18.35.47:062][401]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-18.35.47:062][401]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-18.35.47:062][401]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-18.35.47:062][401]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-18.35.47:064][401]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.12.07-18.35.47:064][401]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.12.07-18.35.47:066][401]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.12.07-18.35.47:066][401]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.12.07-18.35.47:066][401]LogInit: FAudioDevice initialized with ID 7.
+[2023.12.07-18.35.47:066][401]LogAudio: Display: Audio Device (ID: 7) registered with world 'FightingGame'.
+[2023.12.07-18.35.47:066][401]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.07-18.35.47:072][401]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-18.35.47:074][401]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 0) at 2023.12.07-13.35.47
+[2023.12.07-18.35.47:074][401]LogWorld: Bringing up level for play took: 0.001265
+[2023.12.07-18.35.47:077][401]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.12.07-18.35.47:089][401]PIE: Server logged in
+[2023.12.07-18.35.47:091][401]PIE: Play in editor total start time 0.192 seconds.
+[2023.12.07-18.35.49:048][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-18.35.49:048][450]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-18.35.49:049][450]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.35.49:049][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.35.49:097][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-18.35.49:113][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.35.49:160][450]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-18.35.49:160][450]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.07-18.35.49:161][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.07-18.35.49:166][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.07-18.35.49:184][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-18.35.49:190][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.12.07-18.35.49:513][451]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.12.07-18.35.57:722][516]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2023.12.07-18.35.58:107][516]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.35.58:109][516]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2023.12.07-18.35.58:110][516]Cmd: MAP LOAD FILE="../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.12.07-18.35.58:110][516]LightingResults: New page: Lighting Build
+[2023.12.07-18.35.58:113][516]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.12.07-18.35.58:295][516]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.35.58:295][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.35.58:406][516]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.35.58:406][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.35.58:406][516]MapCheck: New page: Map Check
+[2023.12.07-18.35.58:406][516]LightingResults: New page: Lighting Build
+[2023.12.07-18.35.58:425][516]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-18.35.58:467][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.12.07-18.35.58:505][516]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.35.58:505][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.35.58:531][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.12.07-18.35.58:553][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.12.07-18.35.58:566][516]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.12.07-18.35.58:566][516]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.35.58:566][516]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.35.58:566][516]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-18.35.58:607][516]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.07-18.35.58:631][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.12.07-18.35.58:648][516]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.07-18.35.58:648][516]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.169ms to complete.
+[2023.12.07-18.36.03:114][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-18.36.03:128][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-18.36.03:128][567]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 8:36:03 AM)
+[2023.12.07-18.36.03:128][567]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-18.36.03:131][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002860s)
+[2023.12.07-18.36.03:131][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002931s)
+[2023.12.07-18.36.03:169][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.12.07-18.36.03:176][567]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.36.03:176][567]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.36.03:176][567]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-18.36.03:176][567]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2023.12.07-18.36.03:176][567]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.12.07-18.36.03:176][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-18.36.03:176][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-18.36.03:178][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-18.36.03:178][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-18.36.03:178][567]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-18.36.03:178][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-18.36.03:178][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-18.36.03:178][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-18.36.03:178][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-18.36.03:178][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-18.36.03:178][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-18.36.03:181][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-18.36.03:250][567]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-18.36.03:251][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-18.36.03:251][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-18.36.03:251][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-18.36.03:252][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.12.07-18.36.03:252][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.12.07-18.36.03:258][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.12.07-18.36.03:259][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.12.07-18.36.03:259][567]LogInit: FAudioDevice initialized with ID 8.
+[2023.12.07-18.36.03:259][567]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMenu'.
+[2023.12.07-18.36.03:259][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.12.07-18.36.03:263][567]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-18.36.03:263][567]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2023.12.07-13.36.03
+[2023.12.07-18.36.03:263][567]LogWorld: Bringing up level for play took: 0.000736
+[2023.12.07-18.36.03:269][567]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.12.07-18.36.03:277][567]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-18.36.03:277][567]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-18.36.03:277][567]PIE: Server logged in
+[2023.12.07-18.36.03:279][567]PIE: Play in editor total start time 0.151 seconds.
+[2023.12.07-18.36.15:168][860]LogNet: Browse: /Game/Maps/FightingGame
+[2023.12.07-18.36.15:170][860]LogLoad: LoadMap: /Game/Maps/FightingGame
+[2023.12.07-18.36.15:170][860]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-18.36.15:171][860]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.36.15:173][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.36.15:222][860]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-18.36.15:227][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2023.12.07-18.36.15:301][860]LogAudio: Display: Audio Device (ID: 8) registered with world 'FightingGame'.
+[2023.12.07-18.36.15:302][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.36.15:302][860]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.36.15:302][860]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-18.36.15:303][860]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2023.12.07-18.36.15:303][860]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-18.36.15:305][860]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 0) at 2023.12.07-13.36.15
+[2023.12.07-18.36.15:305][860]LogWorld: Bringing up level for play took: 0.001597
+[2023.12.07-18.36.15:314][860]LogLoad: Took 0.143571 seconds to LoadMap(/Game/Maps/FightingGame)
+[2023.12.07-18.36.21:570][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-18.36.21:570][ 46]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-18.36.21:570][ 46]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.36.21:570][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.36.21:626][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-18.36.21:638][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.36.21:663][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-18.36.21:663][ 46]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.12.07-18.36.21:663][ 46]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.12.07-18.36.21:667][ 46]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.12.07-18.36.21:685][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.12.07-18.36.21:752][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.12.07-18.36.59:808][369]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2023.12.07-18.36.59:809][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.36.59:809][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.37.14:370][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.12.07-18.37.14:624][485]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.37.14:627][485]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/FightingGame.FightingGame
+[2023.12.07-18.37.14:627][485]Cmd: MAP LOAD FILE="../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.12.07-18.37.14:627][485]LightingResults: New page: Lighting Build
+[2023.12.07-18.37.14:627][485]LoadErrors: New page: Loading map: FightingGame.umap
+[2023.12.07-18.37.14:765][485]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.37.14:765][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.37.14:824][485]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.37.14:825][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.37.14:825][485]MapCheck: New page: Map Check
+[2023.12.07-18.37.14:825][485]LightingResults: New page: Lighting Build
+[2023.12.07-18.37.14:844][485]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-18.37.14:847][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.12.07-18.37.14:857][485]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-18.37.14:857][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-18.37.14:878][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.12.07-18.37.14:897][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.12.07-18.37.14:929][485]LogAudio: Display: Audio Device (ID: 1) registered with world 'FightingGame'.
+[2023.12.07-18.37.14:929][485]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.37.14:929][485]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.37.14:930][485]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-18.37.15:019][485]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.07-18.37.15:042][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.12.07-18.37.15:057][485]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.07-18.37.15:062][485]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 4.951ms to complete.
+[2023.12.07-18.37.17:630][517]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/FightingGame.FightingGame:PersistentLevel.FightingGame
+[2023.12.07-18.37.17:632][517]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.37.17:632][517]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.00.07:842][ 13]BlueprintLog: New page: Compile FightingGame
+[2023.12.07-19.00.07:994][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2023.12.07-19.00.08:448][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-19.00.08:805][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.12.07-19.00.08:855][ 17]LogSavePackage: Moving output files for package: /Game/Maps/FightingGame
+[2023.12.07-19.00.08:856][ 17]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGame22C65ACC434F07B2D3A57B956B4CCCCC.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap'
+[2023.12.07-19.00.08:884][ 17]LogFileHelpers: Saving map 'FightingGame' took 0.156
+[2023.12.07-19.00.08:935][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 488 ms (total: 7.12 sec)
+[2023.12.07-19.00.08:950][ 17]AssetCheck: New page: Asset Save: FightingGame
+[2023.12.07-19.00.08:950][ 17]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FightingGame.FightingGame
+[2023.12.07-19.02.16:296][852]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-19.02.16:314][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-19.02.16:314][852]PIE: New page: PIE session: FightingGame (Dec 7, 2023, 9:02:16 AM)
+[2023.12.07-19.02.16:314][852]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-19.02.16:321][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006946s)
+[2023.12.07-19.02.16:321][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FightingGame.FightingGame to /Game/Maps/UEDPIE_0_FightingGame.FightingGame (0.007005s)
+[2023.12.07-19.02.16:348][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.12.07-19.02.16:353][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.02.16:353][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.02.16:354][852]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-19.02.16:354][852]LogPlayLevel: PIE: World Init took: (0.001974s)
+[2023.12.07-19.02.16:354][852]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.12.07-19.02.16:354][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-19.02.16:355][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-19.02.16:355][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-19.02.16:355][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-19.02.16:355][852]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-19.02.16:355][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-19.02.16:355][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-19.02.16:355][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-19.02.16:356][852]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-19.02.16:356][852]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-19.02.16:356][852]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-19.02.16:359][852]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-19.02.16:439][852]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-19.02.16:440][852]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-19.02.16:440][852]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-19.02.16:440][852]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-19.02.16:441][852]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.12.07-19.02.16:441][852]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.12.07-19.02.16:445][852]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.12.07-19.02.16:445][852]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.12.07-19.02.16:445][852]LogInit: FAudioDevice initialized with ID 9.
+[2023.12.07-19.02.16:445][852]LogAudio: Display: Audio Device (ID: 9) registered with world 'FightingGame'.
+[2023.12.07-19.02.16:445][852]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.12.07-19.02.16:509][852]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-19.02.16:510][852]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 60) at 2023.12.07-14.02.16
+[2023.12.07-19.02.16:510][852]LogWorld: Bringing up level for play took: 0.001230
+[2023.12.07-19.02.16:514][852]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.12.07-19.02.16:518][852]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.07-19.02.16:522][852]PIE: Server logged in
+[2023.12.07-19.02.16:522][852]PIE: Play in editor total start time 0.211 seconds.
+[2023.12.07-19.02.18:136][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-19.02.18:136][858]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-19.02.18:136][858]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.02.18:136][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.18:495][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-19.02.18:501][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.18:526][858]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-19.02.18:526][858]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.12.07-19.02.18:526][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.12.07-19.02.18:529][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.12.07-19.02.18:539][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-19.02.18:543][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.12.07-19.02.18:926][859]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.12.07-19.02.20:816][864]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.12.07-19.02.27:242][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.12.07-19.02.27:406][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.02.27:408][895]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2023.12.07-19.02.27:408][895]Cmd: MAP LOAD FILE="../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.12.07-19.02.27:408][895]LightingResults: New page: Lighting Build
+[2023.12.07-19.02.27:408][895]LoadErrors: New page: Loading map: MainMenu.umap
+[2023.12.07-19.02.27:548][895]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.02.27:548][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.27:599][895]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.02.27:599][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.27:599][895]MapCheck: New page: Map Check
+[2023.12.07-19.02.27:599][895]LightingResults: New page: Lighting Build
+[2023.12.07-19.02.27:626][895]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-19.02.27:633][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2023.12.07-19.02.27:721][895]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.02.27:721][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.27:751][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2023.12.07-19.02.27:788][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.12.07-19.02.27:801][895]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2023.12.07-19.02.27:802][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.02.27:802][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.02.27:802][895]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-19.02.27:864][895]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.07-19.02.27:896][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2023.12.07-19.02.27:911][895]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.07-19.02.27:911][895]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.273ms to complete.
+[2023.12.07-19.02.29:234][906]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-19.02.29:251][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-19.02.29:252][906]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 9:02:29 AM)
+[2023.12.07-19.02.29:252][906]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-19.02.29:254][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002034s)
+[2023.12.07-19.02.29:254][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002084s)
+[2023.12.07-19.02.29:282][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.12.07-19.02.29:288][906]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.02.29:288][906]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.02.29:289][906]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-19.02.29:289][906]LogPlayLevel: PIE: World Init took: (0.001561s)
+[2023.12.07-19.02.29:289][906]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.12.07-19.02.29:290][906]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-19.02.29:290][906]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-19.02.29:290][906]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-19.02.29:290][906]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-19.02.29:290][906]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-19.02.29:290][906]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-19.02.29:290][906]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-19.02.29:290][906]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-19.02.29:290][906]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-19.02.29:290][906]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-19.02.29:290][906]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-19.02.29:293][906]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-19.02.29:352][906]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-19.02.29:354][906]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-19.02.29:354][906]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-19.02.29:354][906]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-19.02.29:354][906]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.12.07-19.02.29:354][906]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.12.07-19.02.29:356][906]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.12.07-19.02.29:357][906]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.12.07-19.02.29:357][906]LogInit: FAudioDevice initialized with ID 10.
+[2023.12.07-19.02.29:357][906]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainMenu'.
+[2023.12.07-19.02.29:357][906]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.12.07-19.02.29:360][906]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-19.02.29:360][906]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.12.07-14.02.29
+[2023.12.07-19.02.29:360][906]LogWorld: Bringing up level for play took: 0.000395
+[2023.12.07-19.02.29:364][906]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.12.07-19.02.29:367][906]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-19.02.29:367][906]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-19.02.29:367][906]PIE: Server logged in
+[2023.12.07-19.02.29:368][906]PIE: Play in editor total start time 0.116 seconds.
+[2023.12.07-19.02.34:894][969]LogNet: Browse: /Game/Maps/FightingGame
+[2023.12.07-19.02.34:894][969]LogLoad: LoadMap: /Game/Maps/FightingGame
+[2023.12.07-19.02.34:894][969]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-19.02.34:895][969]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.02.34:895][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.34:920][969]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-19.02.34:980][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.12.07-19.02.35:091][969]LogAudio: Display: Audio Device (ID: 10) registered with world 'FightingGame'.
+[2023.12.07-19.02.35:091][969]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.02.35:091][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.02.35:092][969]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-19.02.35:092][969]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2023.12.07-19.02.35:092][969]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-19.02.35:094][969]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 60) at 2023.12.07-14.02.35
+[2023.12.07-19.02.35:094][969]LogWorld: Bringing up level for play took: 0.001142
+[2023.12.07-19.02.35:096][969]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.07-19.02.35:096][969]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.07-19.02.35:100][969]LogLoad: Took 0.206914 seconds to LoadMap(/Game/Maps/FightingGame)
+[2023.12.07-19.02.41:005][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-19.02.41:006][  2]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-19.02.41:006][  2]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.02.41:006][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.41:339][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-19.02.41:347][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.41:373][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-19.02.41:373][  2]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.12.07-19.02.41:374][  2]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.12.07-19.02.41:376][  2]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.12.07-19.02.41:392][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.12.07-19.02.41:712][  3]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.12.07-19.02.46:061][ 51]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-19.02.46:074][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-19.02.46:074][ 51]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 9:02:46 AM)
+[2023.12.07-19.02.46:074][ 51]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-19.02.46:076][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001900s)
+[2023.12.07-19.02.46:076][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001959s)
+[2023.12.07-19.02.46:107][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2023.12.07-19.02.46:109][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.02.46:109][ 51]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.02.46:109][ 51]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-19.02.46:110][ 51]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2023.12.07-19.02.46:110][ 51]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.12.07-19.02.46:110][ 51]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-19.02.46:110][ 51]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-19.02.46:110][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-19.02.46:110][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-19.02.46:110][ 51]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-19.02.46:110][ 51]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-19.02.46:110][ 51]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-19.02.46:110][ 51]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-19.02.46:111][ 51]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-19.02.46:111][ 51]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-19.02.46:111][ 51]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-19.02.46:114][ 51]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-19.02.46:178][ 51]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-19.02.46:178][ 51]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-19.02.46:178][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-19.02.46:178][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-19.02.46:179][ 51]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.12.07-19.02.46:179][ 51]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.12.07-19.02.46:182][ 51]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.12.07-19.02.46:182][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.12.07-19.02.46:182][ 51]LogInit: FAudioDevice initialized with ID 11.
+[2023.12.07-19.02.46:182][ 51]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainMenu'.
+[2023.12.07-19.02.46:182][ 51]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.12.07-19.02.46:186][ 51]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-19.02.46:186][ 51]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.12.07-14.02.46
+[2023.12.07-19.02.46:186][ 51]LogWorld: Bringing up level for play took: 0.000592
+[2023.12.07-19.02.46:189][ 51]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.12.07-19.02.46:191][ 51]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-19.02.46:192][ 51]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-19.02.46:192][ 51]PIE: Server logged in
+[2023.12.07-19.02.46:193][ 51]PIE: Play in editor total start time 0.118 seconds.
+[2023.12.07-19.02.51:979][119]LogNet: Browse: /Game/Maps/FightingGame
+[2023.12.07-19.02.51:979][119]LogLoad: LoadMap: /Game/Maps/FightingGame
+[2023.12.07-19.02.51:979][119]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-19.02.51:980][119]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.02.51:980][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.02.52:011][119]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-19.02.52:066][119]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.12.07-19.02.52:173][119]LogAudio: Display: Audio Device (ID: 11) registered with world 'FightingGame'.
+[2023.12.07-19.02.52:173][119]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.02.52:174][119]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.02.52:175][119]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-19.02.52:175][119]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2023.12.07-19.02.52:175][119]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-19.02.52:176][119]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 60) at 2023.12.07-14.02.52
+[2023.12.07-19.02.52:177][119]LogWorld: Bringing up level for play took: 0.001191
+[2023.12.07-19.02.52:179][119]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.07-19.02.52:179][119]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.07-19.02.52:183][119]LogLoad: Took 0.203548 seconds to LoadMap(/Game/Maps/FightingGame)
+[2023.12.07-19.03.07:986][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-19.03.07:986][207]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-19.03.07:986][207]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.03.07:986][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.03.08:344][207]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-19.03.08:351][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.03.08:375][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-19.03.08:375][207]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.12.07-19.03.08:375][207]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.12.07-19.03.08:378][207]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.12.07-19.03.08:393][207]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.12.07-19.03.08:699][208]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.12.07-19.03.10:643][230]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-19.03.10:660][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-19.03.10:660][230]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 9:03:10 AM)
+[2023.12.07-19.03.10:660][230]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-19.03.10:662][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001782s)
+[2023.12.07-19.03.10:662][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001833s)
+[2023.12.07-19.03.10:694][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.12.07-19.03.10:696][230]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.03.10:696][230]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.03.10:697][230]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-19.03.10:698][230]LogPlayLevel: PIE: World Init took: (0.001425s)
+[2023.12.07-19.03.10:698][230]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.12.07-19.03.10:698][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-19.03.10:698][230]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-19.03.10:698][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-19.03.10:698][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-19.03.10:698][230]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-19.03.10:698][230]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-19.03.10:698][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-19.03.10:698][230]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-19.03.10:698][230]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-19.03.10:698][230]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-19.03.10:698][230]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-19.03.10:701][230]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-19.03.10:770][230]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-19.03.10:770][230]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-19.03.10:770][230]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-19.03.10:771][230]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-19.03.10:771][230]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.12.07-19.03.10:771][230]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.12.07-19.03.10:775][230]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.12.07-19.03.10:775][230]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.12.07-19.03.10:775][230]LogInit: FAudioDevice initialized with ID 12.
+[2023.12.07-19.03.10:775][230]LogAudio: Display: Audio Device (ID: 12) registered with world 'MainMenu'.
+[2023.12.07-19.03.10:775][230]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.12.07-19.03.10:780][230]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-19.03.10:780][230]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.12.07-14.03.10
+[2023.12.07-19.03.10:781][230]LogWorld: Bringing up level for play took: 0.000643
+[2023.12.07-19.03.10:785][230]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.12.07-19.03.10:787][230]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-19.03.10:787][230]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-19.03.10:787][230]PIE: Server logged in
+[2023.12.07-19.03.10:788][230]PIE: Play in editor total start time 0.129 seconds.
+[2023.12.07-19.03.13:125][257]LogNet: Browse: /Game/Maps/FightingGame
+[2023.12.07-19.03.13:125][257]LogLoad: LoadMap: /Game/Maps/FightingGame
+[2023.12.07-19.03.13:126][257]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-19.03.13:126][257]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.03.13:127][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.03.13:148][257]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-19.03.13:210][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.07-19.03.13:332][257]LogAudio: Display: Audio Device (ID: 12) registered with world 'FightingGame'.
+[2023.12.07-19.03.13:332][257]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-19.03.13:332][257]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-19.03.13:332][257]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-19.03.13:332][257]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2023.12.07-19.03.13:332][257]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-19.03.13:335][257]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 60) at 2023.12.07-14.03.13
+[2023.12.07-19.03.13:335][257]LogWorld: Bringing up level for play took: 0.001110
+[2023.12.07-19.03.13:337][257]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.07-19.03.13:337][257]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.07-19.03.13:340][257]LogLoad: Took 0.214440 seconds to LoadMap(/Game/Maps/FightingGame)
+[2023.12.07-19.03.54:796][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-19.03.54:796][487]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-19.03.54:796][487]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-19.03.54:796][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.03.55:128][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-19.03.55:135][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-19.03.55:159][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-19.03.55:160][487]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.12.07-19.03.55:160][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.12.07-19.03.55:162][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.12.07-19.03.55:178][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.12.07-19.03.55:522][488]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.12.07-19.04.06:267][529]LogDerivedDataCache: C:/Users/justa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.146 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1229 files in 1934 folders with total size 5 MiB.
+[2023.12.07-19.06.44:905][525]LogEditorTransaction: Undo Rename Widget
+[2023.12.07-19.06.49:100][566]Cmd: TRANSACTION REDO
+[2023.12.07-19.06.49:100][566]LogEditorTransaction: Redo Rename Widget
+[2023.12.07-19.06.50:801][581]Cmd: TRANSACTION UNDO
+[2023.12.07-19.06.50:801][581]LogEditorTransaction: Undo Rename Widget
+[2023.12.07-19.06.57:456][648]Cmd: TRANSACTION UNDO
+[2023.12.07-19.06.57:456][648]LogEditorTransaction: Undo Rename Widget
+[2023.12.07-19.13.45:416][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2023.12.07-19.13.45:427][813]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMenu' took 0.046
+[2023.12.07-19.13.45:427][813]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu_WB] ([2] browsable assets)...
+[2023.12.07-19.13.45:443][813]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu_WB.MainMenu_WB]
+[2023.12.07-19.13.45:443][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu_WB]
+[2023.12.07-19.13.45:466][813]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu_WB_Auto2
+[2023.12.07-19.13.45:467][813]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MainMenu_WB_Auto299FC37CB4FBC2DAFCA07BE98E65A2AD1.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/UI/MainMenu_WB_Auto2.uasset'
+[2023.12.07-19.13.45:506][813]LogFileHelpers: Auto-saving content packages took 0.080
+[2023.12.07-19.18.24:642][277]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [141 Seconds] waiting for h/w. InstanceID=1
+[2023.12.07-19.18.27:380][277]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17388
+[2023.12.07-19.18.27:477][278]LogHttp: Warning: 000007193BCBD700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.12.07-19.18.27:477][278]LogHttp: Warning: 000007193BCBD700: libcurl info message cache 0 (Too old connection (145 seconds idle), disconnect it)
+[2023.12.07-19.18.27:477][278]LogHttp: Warning: 000007193BCBD700: libcurl info message cache 1 (Connection 4 seems to be dead)
+[2023.12.07-19.18.27:477][278]LogHttp: Warning: 000007193BCBD700: libcurl info message cache 2 (Closing connection)
+[2023.12.07-19.18.27:477][278]LogHttp: Warning: 000007193BCBD700: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.12.07-19.18.27:477][278]LogHttp: Warning: 000007193BCBD700: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.12.07-19.18.27:477][278]LogHttp: Warning: 000007193BCBD700: libcurl info message cache 5 (Closing connection)
+[2023.12.07-19.18.27:477][278]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33EBD4C6-495C-BD6B-7199-EF9084E03EB0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9b6d20964edec6b5cb5cbb9c3e7be9e1%7Cfcf07b044c7c4fe6a5d35e9ed3232ac1%7C5863dff0-80bc-4280-9652-706c8391e28d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.12.07-19.18.28:367][280]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ac3d33a8-8c27-4396-bfa8-e295ba9b9f87}, Name=Headphones (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=842.24
+[2023.12.07-19.18.28:367][280]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.07-19.18.28:372][280]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.12.07-20.06.07:498][494]LogDerivedDataCache: C:/Users/justa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.120 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1229 files in 1934 folders with total size 5 MiB.
+[2023.12.07-21.02.31:438][ 65]BlueprintLog: New page: Compile MainMenu_WB
+[2023.12.07-21.02.31:480][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.12.07-21.02.32:116][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-21.02.32:234][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu_WB" FILE="../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset" SILENT=true
+[2023.12.07-21.02.32:259][100]LogSavePackage: Moving output files for package: /Game/UI/MainMenu_WB
+[2023.12.07-21.02.32:260][100]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MainMenu_WBA354218541E0785069F885AAAB0E7321.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset'
+[2023.12.07-21.02.32:274][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 7.28 sec)
+[2023.12.07-21.02.32:277][100]AssetCheck: New page: Asset Save: MainMenu_WB
+[2023.12.07-21.02.32:277][100]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/MainMenu_WB.MainMenu_WB
+[2023.12.07-21.02.40:886][457]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-21.02.40:901][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-21.02.40:901][457]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 11:02:40 AM)
+[2023.12.07-21.02.40:901][457]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.02.40:902][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001360s)
+[2023.12.07-21.02.40:902][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001401s)
+[2023.12.07-21.02.40:921][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.12.07-21.02.40:925][457]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.02.40:925][457]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.02.40:926][457]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-21.02.40:926][457]LogPlayLevel: PIE: World Init took: (0.001630s)
+[2023.12.07-21.02.40:926][457]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.12.07-21.02.40:926][457]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-21.02.40:926][457]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-21.02.40:926][457]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-21.02.40:926][457]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-21.02.40:926][457]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-21.02.40:926][457]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-21.02.40:926][457]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-21.02.40:926][457]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-21.02.40:928][457]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-21.02.40:928][457]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-21.02.40:928][457]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-21.02.40:931][457]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-21.02.40:974][457]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-21.02.40:974][457]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-21.02.40:974][457]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-21.02.40:974][457]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-21.02.40:976][457]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.12.07-21.02.40:976][457]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.12.07-21.02.40:977][457]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.12.07-21.02.40:977][457]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.12.07-21.02.40:977][457]LogInit: FAudioDevice initialized with ID 13.
+[2023.12.07-21.02.40:977][457]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2023.12.07-21.02.40:977][457]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.12.07-21.02.40:981][457]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-21.02.40:981][457]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2023.12.07-16.02.40
+[2023.12.07-21.02.40:981][457]LogWorld: Bringing up level for play took: 0.000439
+[2023.12.07-21.02.40:984][457]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.12.07-21.02.40:986][457]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-21.02.40:986][457]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-21.02.40:986][457]PIE: Server logged in
+[2023.12.07-21.02.40:988][457]PIE: Play in editor total start time 0.088 seconds.
+[2023.12.07-21.02.45:776][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.02.45:777][957]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.02.45:777][957]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.02.45:777][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.02.45:780][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-21.02.45:787][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.02.45:803][957]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-21.02.45:803][957]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.12.07-21.02.45:804][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.12.07-21.02.45:805][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.12.07-21.02.45:814][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.02.45:818][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.12.07-21.02.45:851][959]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.12.07-21.03.11:953][650]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-21.03.11:965][650]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.07-21.03.11:967][650]LogPlayLevel: [PlayLevel] Compiling MainMenu_WB before play...
+[2023.12.07-21.03.12:083][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.12.07-21.03.12:086][650]LogPlayLevel: PlayLevel: Blueprint regeneration took 121 ms (1 blueprints)
+[2023.12.07-21.03.12:086][650]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 11:03:12 AM)
+[2023.12.07-21.03.12:087][650]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.03.12:088][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001286s)
+[2023.12.07-21.03.12:088][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001328s)
+[2023.12.07-21.03.12:105][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.12.07-21.03.12:106][650]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.03.12:106][650]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.03.12:106][650]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-21.03.12:107][650]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2023.12.07-21.03.12:107][650]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.12.07-21.03.12:107][650]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-21.03.12:107][650]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-21.03.12:107][650]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-21.03.12:107][650]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-21.03.12:107][650]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-21.03.12:107][650]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-21.03.12:107][650]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-21.03.12:107][650]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-21.03.12:107][650]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-21.03.12:107][650]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-21.03.12:107][650]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-21.03.12:110][650]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-21.03.12:156][650]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-21.03.12:156][650]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-21.03.12:156][650]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-21.03.12:156][650]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-21.03.12:158][650]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.12.07-21.03.12:158][650]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.12.07-21.03.12:160][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.12.07-21.03.12:160][650]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.12.07-21.03.12:160][650]LogInit: FAudioDevice initialized with ID 14.
+[2023.12.07-21.03.12:160][650]LogAudio: Display: Audio Device (ID: 14) registered with world 'MainMenu'.
+[2023.12.07-21.03.12:160][650]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.12.07-21.03.12:163][650]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-21.03.12:163][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2023.12.07-16.03.12
+[2023.12.07-21.03.12:163][650]LogWorld: Bringing up level for play took: 0.000343
+[2023.12.07-21.03.12:165][650]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.12.07-21.03.12:169][650]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-21.03.12:169][650]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-21.03.12:169][650]PIE: Server logged in
+[2023.12.07-21.03.12:169][650]PIE: Play in editor total start time 0.204 seconds.
+[2023.12.07-21.03.17:947][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.03.17:947][249]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.03.17:947][249]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.03.17:947][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.03.17:950][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-21.03.17:958][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.03.17:976][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.03.17:976][249]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.12.07-21.03.17:976][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.12.07-21.03.17:979][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.12.07-21.03.17:995][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.12.07-21.03.18:029][250]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.12.07-21.04.12:189][664]BlueprintLog: New page: Compile MainMenu_WB
+[2023.12.07-21.04.12:227][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.12.07-21.04.13:011][694]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-21.04.13:111][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu_WB" FILE="../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset" SILENT=true
+[2023.12.07-21.04.13:134][694]LogSavePackage: Moving output files for package: /Game/UI/MainMenu_WB
+[2023.12.07-21.04.13:134][694]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MainMenu_WB9D58ED2445D19ED748B733ACB0FD11E3.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset'
+[2023.12.07-21.04.13:146][694]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 7.41 sec)
+[2023.12.07-21.04.13:149][694]AssetCheck: New page: Asset Save: MainMenu_WB
+[2023.12.07-21.04.13:149][694]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/MainMenu_WB.MainMenu_WB
+[2023.12.07-21.04.15:584][876]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-21.04.15:597][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-21.04.15:597][876]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 11:04:15 AM)
+[2023.12.07-21.04.15:597][876]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.04.15:598][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001362s)
+[2023.12.07-21.04.15:598][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001410s)
+[2023.12.07-21.04.15:619][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.12.07-21.04.15:623][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.04.15:623][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.04.15:623][876]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-21.04.15:624][876]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2023.12.07-21.04.15:624][876]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.12.07-21.04.15:624][876]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-21.04.15:624][876]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-21.04.15:624][876]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-21.04.15:624][876]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-21.04.15:624][876]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-21.04.15:624][876]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-21.04.15:624][876]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-21.04.15:624][876]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-21.04.15:625][876]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-21.04.15:625][876]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-21.04.15:625][876]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-21.04.15:628][876]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-21.04.15:681][876]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-21.04.15:682][876]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-21.04.15:682][876]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-21.04.15:682][876]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-21.04.15:683][876]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.12.07-21.04.15:683][876]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.12.07-21.04.15:684][876]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.12.07-21.04.15:684][876]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.12.07-21.04.15:684][876]LogInit: FAudioDevice initialized with ID 15.
+[2023.12.07-21.04.15:684][876]LogAudio: Display: Audio Device (ID: 15) registered with world 'MainMenu'.
+[2023.12.07-21.04.15:684][876]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.07-21.04.15:687][876]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-21.04.15:688][876]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2023.12.07-16.04.15
+[2023.12.07-21.04.15:688][876]LogWorld: Bringing up level for play took: 0.000438
+[2023.12.07-21.04.15:691][876]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.12.07-21.04.15:693][876]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-21.04.15:693][876]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-21.04.15:693][876]PIE: Server logged in
+[2023.12.07-21.04.15:694][876]PIE: Play in editor total start time 0.098 seconds.
+[2023.12.07-21.04.21:913][528]LogNet: Browse: /Game/Maps/FightingGame
+[2023.12.07-21.04.21:913][528]LogLoad: LoadMap: /Game/Maps/FightingGame
+[2023.12.07-21.04.21:913][528]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.04.21:913][528]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.04.21:913][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.04.21:973][528]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-21.04.21:975][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.12.07-21.04.22:003][528]LogAudio: Display: Audio Device (ID: 15) registered with world 'FightingGame'.
+[2023.12.07-21.04.22:003][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.04.22:003][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.04.22:003][528]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-21.04.22:004][528]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2023.12.07-21.04.22:004][528]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-21.04.22:006][528]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 0) at 2023.12.07-16.04.22
+[2023.12.07-21.04.22:006][528]LogWorld: Bringing up level for play took: 0.001184
+[2023.12.07-21.04.22:008][528]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.07-21.04.22:008][528]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.07-21.04.22:009][528]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2023.12.07-21.04.22:010][528]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:049A
+[2023.12.07-21.04.22:019][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Loadcontrols Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:021][528]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:00F6
+[2023.12.07-21.04.22:021][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Bind Event to Updatehealth Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:021][528]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:018A
+[2023.12.07-21.04.22:021][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Bind Event to Whowon Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:022][528]LogLoad: Took 0.108601 seconds to LoadMap(/Game/Maps/FightingGame)
+[2023.12.07-21.04.22:043][529]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0793
+[2023.12.07-21.04.22:043][529]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:043][529]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0897
+[2023.12.07-21.04.22:043][529]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:115][532]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0793
+[2023.12.07-21.04.22:115][532]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:115][532]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0897
+[2023.12.07-21.04.22:115][532]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:224][537]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0793
+[2023.12.07-21.04.22:224][537]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:224][537]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0897
+[2023.12.07-21.04.22:224][537]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:328][542]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0793
+[2023.12.07-21.04.22:328][542]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:328][542]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0897
+[2023.12.07-21.04.22:328][542]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:414][546]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0793
+[2023.12.07-21.04.22:414][546]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:414][546]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0897
+[2023.12.07-21.04.22:414][546]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:517][551]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0793
+[2023.12.07-21.04.22:517][551]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:518][551]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0897
+[2023.12.07-21.04.22:518][551]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:622][556]LogScript: Warning: Accessed None trying to read property player2ref
+	FightingGame_C /Game/Maps/UEDPIE_0_FightingGame.FightingGame:PersistentLevel.FightingGame_C_0
+	Function /Game/Maps/UEDPIE_0_FightingGame.FightingGame_C:ExecuteUbergraph_FightingGame:0793
+[2023.12.07-21.04.22:622][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:622][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:730][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:730][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:813][565]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:813][565]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:921][570]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.22:921][570]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:032][575]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:032][575]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:118][579]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:118][579]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:227][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:227][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:332][589]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:332][589]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:418][593]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:418][593]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:527][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:527][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:632][603]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:632][603]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:720][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:720][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:826][612]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:826][612]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:913][616]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.23:913][616]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:023][621]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:023][621]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:129][626]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:129][626]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:216][630]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:216][630]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:322][635]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:322][635]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:430][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:430][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:514][644]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:514][644]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:619][649]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:620][649]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:728][654]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:729][654]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:814][658]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:814][658]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:921][663]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.24:921][663]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:032][668]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:032][668]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:116][672]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:116][672]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:223][677]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:223][677]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:333][682]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:333][682]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:417][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:417][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:525][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:525][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:630][696]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:631][696]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:716][700]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:716][700]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:825][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:825][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:932][710]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.25:933][710]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:020][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:020][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:126][719]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:127][719]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:233][724]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:233][724]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:322][728]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:322][728]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.26:367][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.04.26:367][729]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-21.04.26:367][729]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.04.26:367][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.04.26:390][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-21.04.26:396][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.04.26:414][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.04.26:414][729]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.07-21.04.26:414][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.07-21.04.26:416][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.07-21.04.26:429][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.12.07-21.04.26:668][730]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.12.07-21.04.35:735][550]LogSlate: Window 'Message Log' being destroyed
+[2023.12.07-21.04.35:749][550]LogSlate: Window 'Message Log' being destroyed
+[2023.12.07-21.04.38:641][811]LogSlate: Window 'Message Log' being destroyed
+[2023.12.07-21.04.38:658][811]LogSlate: Window 'Message Log' being destroyed
+[2023.12.07-21.04.39:363][875]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-21.04.39:375][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-21.04.39:375][875]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 11:04:39 AM)
+[2023.12.07-21.04.39:396][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.04.39:398][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001345s)
+[2023.12.07-21.04.39:398][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001392s)
+[2023.12.07-21.04.39:415][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.07-21.04.39:418][875]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.04.39:419][875]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.04.39:419][875]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-21.04.39:419][875]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2023.12.07-21.04.39:420][875]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.12.07-21.04.39:420][875]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-21.04.39:420][875]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-21.04.39:420][875]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-21.04.39:420][875]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-21.04.39:420][875]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-21.04.39:420][875]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-21.04.39:420][875]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-21.04.39:420][875]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-21.04.39:420][875]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-21.04.39:420][875]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-21.04.39:420][875]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-21.04.39:423][875]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-21.04.39:473][875]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-21.04.39:473][875]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-21.04.39:473][875]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-21.04.39:473][875]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-21.04.39:475][875]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.12.07-21.04.39:475][875]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.12.07-21.04.39:477][875]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.12.07-21.04.39:477][875]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.12.07-21.04.39:477][875]LogInit: FAudioDevice initialized with ID 16.
+[2023.12.07-21.04.39:477][875]LogAudio: Display: Audio Device (ID: 16) registered with world 'MainMenu'.
+[2023.12.07-21.04.39:477][875]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.12.07-21.04.39:480][875]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-21.04.39:480][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2023.12.07-16.04.39
+[2023.12.07-21.04.39:480][875]LogWorld: Bringing up level for play took: 0.000388
+[2023.12.07-21.04.39:483][875]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.12.07-21.04.39:485][875]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-21.04.39:485][875]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-21.04.39:485][875]PIE: Server logged in
+[2023.12.07-21.04.39:486][875]PIE: Play in editor total start time 0.112 seconds.
+[2023.12.07-21.04.42:496][186]LogNet: Browse: /Game/Maps/FightingGame
+[2023.12.07-21.04.42:496][186]LogLoad: LoadMap: /Game/Maps/FightingGame
+[2023.12.07-21.04.42:496][186]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.04.42:497][186]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.04.42:497][186]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.04.42:555][186]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-21.04.42:557][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.12.07-21.04.42:583][186]LogAudio: Display: Audio Device (ID: 16) registered with world 'FightingGame'.
+[2023.12.07-21.04.42:583][186]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.04.42:583][186]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.04.42:584][186]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-21.04.42:584][186]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2023.12.07-21.04.42:584][186]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-21.04.42:585][186]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 0) at 2023.12.07-16.04.42
+[2023.12.07-21.04.42:585][186]LogWorld: Bringing up level for play took: 0.001199
+[2023.12.07-21.04.42:589][186]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.07-21.04.42:589][186]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.07-21.04.42:590][186]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2023.12.07-21.04.42:590][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Loadcontrols Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:591][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Bind Event to Updatehealth Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:591][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Bind Event to Whowon Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:591][186]LogLoad: Took 0.094550 seconds to LoadMap(/Game/Maps/FightingGame)
+[2023.12.07-21.04.42:612][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:613][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:699][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:699][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:810][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:810][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:914][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:914][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.42:999][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:000][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:106][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:106][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:211][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:211][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:297][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:297][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:405][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:405][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:513][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:513][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:603][233]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:605][233]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:714][238]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:714][238]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:800][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:800][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:906][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.43:906][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:015][252]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:015][252]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:099][256]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:099][256]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:208][261]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:208][261]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:314][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:314][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:398][270]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:398][270]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:506][275]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:506][275]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:618][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:618][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:704][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:705][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:812][289]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:812][289]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:915][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.44:915][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:001][298]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:001][298]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:106][303]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:106][303]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:212][308]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:212][308]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:297][312]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:297][312]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:403][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:403][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:508][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:508][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:598][326]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:598][326]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:705][331]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:705][331]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property player2ref". Node:  Set Actor Rotation Graph:  EventGraph Function:  Execute Ubergraph Fighting Game Blueprint:  FightingGame
+[2023.12.07-21.04.45:797][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.04.45:797][334]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-21.04.45:797][334]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.04.45:798][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.04.45:819][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-21.04.45:824][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.04.45:842][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.04.45:842][334]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.12.07-21.04.45:842][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.12.07-21.04.45:845][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.12.07-21.04.45:859][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.12.07-21.04.46:073][335]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.12.07-21.04.54:574][104]LogSlate: Window 'Message Log' being destroyed
+[2023.12.07-21.04.54:591][104]LogSlate: Window 'Message Log' being destroyed
+[2023.12.07-21.05.29:807][267]BlueprintLog: New page: Compile MainMenu_WB
+[2023.12.07-21.05.29:840][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.12.07-21.05.30:508][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-21.05.30:611][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu_WB" FILE="../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset" SILENT=true
+[2023.12.07-21.05.30:636][301]LogSavePackage: Moving output files for package: /Game/UI/MainMenu_WB
+[2023.12.07-21.05.30:637][301]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MainMenu_WB6174FD34436098D6FC292D8F07D7A766.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset'
+[2023.12.07-21.05.30:648][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 7.55 sec)
+[2023.12.07-21.05.30:651][301]AssetCheck: New page: Asset Save: MainMenu_WB
+[2023.12.07-21.05.30:651][301]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/MainMenu_WB.MainMenu_WB
+[2023.12.07-21.05.36:011][664]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-21.05.36:026][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-21.05.36:026][664]PIE: New page: PIE session: MainMenu (Dec 7, 2023, 11:05:36 AM)
+[2023.12.07-21.05.36:026][664]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.05.36:027][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001562s)
+[2023.12.07-21.05.36:027][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001601s)
+[2023.12.07-21.05.36:047][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.12.07-21.05.36:051][664]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.05.36:051][664]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.05.36:052][664]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.07-21.05.36:052][664]LogPlayLevel: PIE: World Init took: (0.001382s)
+[2023.12.07-21.05.36:052][664]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.12.07-21.05.36:052][664]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-21.05.36:052][664]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-21.05.36:052][664]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-21.05.36:052][664]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-21.05.36:052][664]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-21.05.36:052][664]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-21.05.36:052][664]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-21.05.36:052][664]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-21.05.36:053][664]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-21.05.36:053][664]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-21.05.36:053][664]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-21.05.36:055][664]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-21.05.36:107][664]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-21.05.36:107][664]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-21.05.36:107][664]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-21.05.36:107][664]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-21.05.36:109][664]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.12.07-21.05.36:109][664]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.12.07-21.05.36:110][664]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.12.07-21.05.36:110][664]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.12.07-21.05.36:111][664]LogInit: FAudioDevice initialized with ID 17.
+[2023.12.07-21.05.36:111][664]LogAudio: Display: Audio Device (ID: 17) registered with world 'MainMenu'.
+[2023.12.07-21.05.36:111][664]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.12.07-21.05.36:113][664]LogLoad: Game class is 'MainMenuGamemode_C'
+[2023.12.07-21.05.36:115][664]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2023.12.07-16.05.36
+[2023.12.07-21.05.36:115][664]LogWorld: Bringing up level for play took: 0.000449
+[2023.12.07-21.05.36:118][664]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.12.07-21.05.36:120][664]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-21.05.36:120][664]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.07-21.05.36:120][664]PIE: Server logged in
+[2023.12.07-21.05.36:121][664]PIE: Play in editor total start time 0.097 seconds.
+[2023.12.07-21.05.38:513][910]LogNet: Browse: /Game/Maps/FightingGame
+[2023.12.07-21.05.38:515][910]LogLoad: LoadMap: /Game/Maps/FightingGame
+[2023.12.07-21.05.38:515][910]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2023.12.07-21.05.38:515][910]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.05.38:515][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.05.38:563][910]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-21.05.38:566][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.12.07-21.05.38:591][910]LogAudio: Display: Audio Device (ID: 17) registered with world 'FightingGame'.
+[2023.12.07-21.05.38:591][910]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.05.38:591][910]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.05.38:592][910]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-21.05.38:592][910]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2023.12.07-21.05.38:592][910]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-21.05.38:593][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 0) at 2023.12.07-16.05.38
+[2023.12.07-21.05.38:594][910]LogWorld: Bringing up level for play took: 0.001066
+[2023.12.07-21.05.38:595][910]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.07-21.05.38:595][910]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.07-21.05.38:600][910]LogLoad: Took 0.085178 seconds to LoadMap(/Game/Maps/FightingGame)
+[2023.12.07-21.05.55:223][678]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.07-21.05.55:223][678]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.12.07-21.05.55:223][678]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.12.07-21.05.58:061][809]LogNet: Browse: /Game/Maps/FightingGame
+[2023.12.07-21.05.58:061][809]LogLoad: LoadMap: /Game/Maps/FightingGame
+[2023.12.07-21.05.58:061][809]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-21.05.58:062][809]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.05.58:062][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.05.58:104][809]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.07-21.05.58:106][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.12.07-21.05.58:134][809]LogAudio: Display: Audio Device (ID: 17) registered with world 'FightingGame'.
+[2023.12.07-21.05.58:134][809]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-21.05.58:134][809]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-21.05.58:134][809]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-21.05.58:135][809]LogPlayLevel: PIE: World Init took: (0.001585s)
+[2023.12.07-21.05.58:135][809]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-21.05.58:136][809]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 0) at 2023.12.07-16.05.58
+[2023.12.07-21.05.58:136][809]LogWorld: Bringing up level for play took: 0.001588
+[2023.12.07-21.05.58:140][809]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.07-21.05.58:140][809]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.12.07-21.05.58:143][809]LogLoad: Took 0.082738 seconds to LoadMap(/Game/Maps/FightingGame)
+[2023.12.07-21.05.59:618][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.05.59:618][877]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-21.05.59:618][877]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-21.05.59:618][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.05.59:636][877]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-21.05.59:642][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-21.05.59:660][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-21.05.59:660][877]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.12.07-21.05.59:660][877]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.12.07-21.05.59:662][877]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.12.07-21.05.59:675][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.12.07-21.05.59:709][878]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.12.07-21.06.08:428][998]LogDerivedDataCache: C:/Users/justa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.050 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1229 files in 1934 folders with total size 5 MiB.

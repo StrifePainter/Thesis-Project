@@ -1734,3 +1734,117 @@ FDetailCategoryImpl::GenerateChildrenForLayouts() [D:\build\++UE5\Sync\Engine\So
 [2023.12.07-07.19.40:672][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.12.07-07.19.40:676][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
 [2023.12.07-07.19.40:785][713]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.12.07-07.39.07:854][216]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.12.07-07.39.08:169][216]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17388
+[2023.12.07-07.39.08:505][217]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ac3d33a8-8c27-4396-bfa8-e295ba9b9f87}, Name=Headphones (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=65.62
+[2023.12.07-07.39.08:505][217]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.07-07.39.08:507][217]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.12.07-07.54.29:544][250]LogHttp: Warning: 0000071931D63700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.12.07-07.54.29:544][250]LogHttp: Warning: 0000071931D63700: libcurl info message cache 0 (Too old connection (964 seconds idle), disconnect it)
+[2023.12.07-07.54.29:544][250]LogHttp: Warning: 0000071931D63700: libcurl info message cache 1 (Connection 0 seems to be dead)
+[2023.12.07-07.54.29:544][250]LogHttp: Warning: 0000071931D63700: libcurl info message cache 2 (Closing connection)
+[2023.12.07-07.54.29:544][250]LogHttp: Warning: 0000071931D63700: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.12.07-07.54.29:544][250]LogHttp: Warning: 0000071931D63700: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.12.07-07.54.29:544][250]LogHttp: Warning: 0000071931D63700: libcurl info message cache 5 (Closing connection)
+[2023.12.07-07.54.29:544][250]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33EBD4C6-495C-BD6B-7199-EF9084E03EB0%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9b6d20964edec6b5cb5cbb9c3e7be9e1%7Cfcf07b044c7c4fe6a5d35e9ed3232ac1%7C5863dff0-80bc-4280-9652-706c8391e28d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.12.07-18.04.05:226][724]LogDerivedDataCache: C:/Users/justa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.105 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1225 files in 1929 folders with total size 5 MiB.
+[2023.12.07-18.11.54:695][359]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.12.07-18.11.54:742][359]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.12.07-18.11.54:750][359]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.12.07-18.11.54:766][360]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.12.07-18.11.57:011][391]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2023.12.07-18.11.57:062][391]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.12.07-18.12.08:726][596]LogContentBrowser: Attempting asset rename: NewBlueprint -> FightingGameInsance
+[2023.12.07-18.12.08:852][596]LogMetaData: Removing '/Game/Blueprints/FightingGameInsance.SKEL_FightingGameInsance_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2023.12.07-18.12.08:852][596]LogMetaData: Removing '/Game/Blueprints/FightingGameInsance.FightingGameInsance_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2023.12.07-18.12.08:852][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-18.12.09:016][596]LogSavePackage: Moving output files for package: /Game/Blueprints/FightingGameInsance
+[2023.12.07-18.12.09:016][596]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGameInsance468362F048F78C85A87B38820FE9C20A.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Blueprints/FightingGameInsance.uasset'
+[2023.12.07-18.12.09:105][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 252 ms (total: 3.78 sec)
+[2023.12.07-18.12.09:174][596]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2023.12.07-18.12.09:198][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.12.07-18.12.09:221][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.12.07-18.12.09:223][596]AssetCheck: New page: Asset Save: FightingGameInsance
+[2023.12.07-18.12.09:224][596]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FightingGameInsance.FightingGameInsance
+[2023.12.07-18.12.15:301][631]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FightingGameInsance.FightingGameInsance
+[2023.12.07-18.12.15:302][631]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.12.15:302][631]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.12.51:920][ 22]LogEditorTransaction: Undo Rename Variable
+[2023.12.07-18.12.56:098][ 58]LogSlate: Took 0.008473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.12.07-18.13.09:766][165]BlueprintLog: New page: Compile FightingGameInsance
+[2023.12.07-18.13.09:826][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.12.07-18.13.10:713][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-18.13.11:030][175]LogSavePackage: Moving output files for package: /Game/Blueprints/FightingGameInsance
+[2023.12.07-18.13.11:032][175]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGameInsanceC70CF47C406FD0D3BBED9FB609A610E5.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Blueprints/FightingGameInsance.uasset'
+[2023.12.07-18.13.11:126][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 414 ms (total: 4.19 sec)
+[2023.12.07-18.13.11:135][175]AssetCheck: New page: Asset Save: FightingGameInsance
+[2023.12.07-18.13.11:135][175]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FightingGameInsance.FightingGameInsance
+[2023.12.07-18.14.45:292][851]BlueprintLog: New page: Compile FightingGameInsance
+[2023.12.07-18.14.45:318][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.12.07-18.14.46:561][866]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-18.14.46:860][866]LogSavePackage: Moving output files for package: /Game/Blueprints/FightingGameInsance
+[2023.12.07-18.14.46:862][866]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGameInsanceBC0204F44092EEB4F7C520A3D10AA3E8.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Blueprints/FightingGameInsance.uasset'
+[2023.12.07-18.14.46:955][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 393 ms (total: 4.58 sec)
+[2023.12.07-18.14.46:961][866]AssetCheck: New page: Asset Save: FightingGameInsance
+[2023.12.07-18.14.46:961][866]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FightingGameInsance.FightingGameInsance
+[2023.12.07-18.14.59:795][993]LogSlate: External Image Picker: DecompressImage failed
+[2023.12.07-18.15.24:704][205]LogSlate: Window 'Project Settings' being destroyed
+[2023.12.07-18.15.24:811][205]LogSlate: Window 'Project Settings' being destroyed
+[2023.12.07-18.15.30:201][303]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu_WB.MainMenu_WB
+[2023.12.07-18.15.30:241][303]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.15.30:242][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.15.30:261][303]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-18.15.30:261][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-18.15.30:280][303]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.12.07-18.15.31:155][303]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.12.07-18.17.17:465][553]LogSlate: Took 0.012227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.12.07-18.17.23:112][602]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.12.07-18.19.33:249][556]LogTexture: Display: Building textures: /Game/Characters/Monk/MonkFace/MonkFace.MonkFace (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.182285 MB), EncodeSpeed: Fast
+[2023.12.07-18.21.55:453][344]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.12.07-18.21.55:458][344]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FightingGame' took 0.034
+[2023.12.07-18.21.55:460][344]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu_WB] ([2] browsable assets)...
+[2023.12.07-18.21.55:467][344]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu_WB.MainMenu_WB]
+[2023.12.07-18.21.55:467][344]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu_WB]
+[2023.12.07-18.21.55:484][344]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu_WB_Auto1
+[2023.12.07-18.21.55:484][344]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MainMenu_WB_Auto12484E3124A601194D3FBECA73467D533.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/Autosaves/Game/UI/MainMenu_WB_Auto1.uasset'
+[2023.12.07-18.21.55:486][344]LogFileHelpers: Auto-saving content packages took 0.028
+[2023.12.07-18.24.45:287][ 64]Cmd: TRANSACTION UNDO
+[2023.12.07-18.24.45:287][ 64]LogEditorTransaction: Undo Rename Widget
+[2023.12.07-18.24.48:220][ 91]LogEditorTransaction: Undo Rename Widget
+[2023.12.07-18.29.16:263][580]LogEditorTransaction: Undo Move Node
+[2023.12.07-18.29.27:345][654]LogEditorTransaction: Undo Paste clipboard contents
+[2023.12.07-18.29.59:204][921]BlueprintLog: New page: Compile MainMenu_WB
+[2023.12.07-18.29.59:353][921]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2023.12.07-18.30.00:259][927]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-18.30.00:602][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu_WB" FILE="../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset" SILENT=true
+[2023.12.07-18.30.00:663][927]LogSavePackage: Moving output files for package: /Game/UI/MainMenu_WB
+[2023.12.07-18.30.00:667][927]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/MainMenu_WB571B4A524ADDD08F517560A5CDAF432F.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/UI/MainMenu_WB.uasset'
+[2023.12.07-18.30.00:723][927]LogFileHelpers: InternalPromptForCheckoutAndSave took 463 ms (total: 5.05 sec)
+[2023.12.07-18.30.00:726][927]AssetCheck: New page: Asset Save: MainMenu_WB
+[2023.12.07-18.30.00:726][927]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/MainMenu_WB.MainMenu_WB
+[2023.12.07-18.30.46:855][265]BlueprintLog: New page: Compile FightingGameInsance
+[2023.12.07-18.30.46:884][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.12.07-18.30.47:578][272]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-18.30.47:842][272]LogSavePackage: Moving output files for package: /Game/Blueprints/FightingGameInsance
+[2023.12.07-18.30.47:843][272]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGameInsanceE4061CF1419D8A13ADBE5CAA6A7698DC.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Blueprints/FightingGameInsance.uasset'
+[2023.12.07-18.30.47:941][272]LogFileHelpers: InternalPromptForCheckoutAndSave took 362 ms (total: 5.41 sec)
+[2023.12.07-18.30.47:943][272]AssetCheck: New page: Asset Save: FightingGameInsance
+[2023.12.07-18.30.47:943][272]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/FightingGameInsance.FightingGameInsance
+[2023.12.07-18.33.22:160][507]BlueprintLog: New page: Compile FightingGame
+[2023.12.07-18.33.22:231][507]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2023.12.07-18.33.23:175][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-18.33.23:399][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.12.07-18.33.23:448][515]LogSavePackage: Moving output files for package: /Game/Maps/FightingGame
+[2023.12.07-18.33.23:449][515]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGameCFC1AC8F4002AF68AAAA5E8DF2BB1F07.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap'
+[2023.12.07-18.33.23:468][515]LogFileHelpers: Saving map 'FightingGame' took 0.140
+[2023.12.07-18.33.23:513][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 336 ms (total: 5.75 sec)
+[2023.12.07-18.33.23:517][515]AssetCheck: New page: Asset Save: FightingGame
+[2023.12.07-18.33.23:517][515]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FightingGame.FightingGame
+[2023.12.07-18.33.38:681][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-18.33.38:969][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.07-18.33.39:037][630]LogSavePackage: Moving output files for package: /Game/Maps/FightingGame
+[2023.12.07-18.33.39:037][630]LogSavePackage: Moving '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Saved/FightingGame9E7A496744EFDC85B55CCEB5B9577B22.tmp' to '../../../../../../Users/justa/OneDrive/Desktop/FightingGame/Thesis-Project/FightgameUnrealUni/Content/Maps/FightingGame.umap'
+[2023.12.07-18.33.39:067][630]LogFileHelpers: Saving map 'FightingGame' took 0.168
+[2023.12.07-18.33.39:118][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 438 ms (total: 6.18 sec)
+[2023.12.07-18.33.39:124][630]AssetCheck: New page: Asset Save: FightingGame
+[2023.12.07-18.33.39:124][630]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/FightingGame.FightingGame

@@ -1229,3 +1229,56 @@ Minimum required: 527.27
 [2023.12.07-06.42.46:953][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
 [2023.12.07-06.42.47:005][411]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2023.12.07-06.43.50:986][499]LogDerivedDataCache: C:/Users/justa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.319 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1157 files in 1847 folders with total size 5 MiB.
+[2023.12.07-06.56.08:318][909]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.07-06.56.08:329][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.07-06.56.08:329][909]PIE: New page: PIE session: FightingGame (Dec 6, 2023, 8:56:08 PM)
+[2023.12.07-06.56.08:330][909]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-06.56.08:336][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006563s)
+[2023.12.07-06.56.08:336][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FightingGame.FightingGame to /Game/Maps/UEDPIE_0_FightingGame.FightingGame (0.006614s)
+[2023.12.07-06.56.08:341][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.12.07-06.56.08:342][909]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-06.56.08:342][909]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-06.56.08:343][909]LogAIModule: Creating AISystem for world FightingGame
+[2023.12.07-06.56.08:343][909]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2023.12.07-06.56.08:343][909]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.12.07-06.56.08:343][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.07-06.56.08:343][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.07-06.56.08:343][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.07-06.56.08:343][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.07-06.56.08:343][909]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.07-06.56.08:343][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.07-06.56.08:343][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.07-06.56.08:343][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.07-06.56.08:345][909]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.07-06.56.08:345][909]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.07-06.56.08:345][909]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.07-06.56.08:347][909]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.07-06.56.08:445][909]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.12.07-06.56.08:447][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.07-06.56.08:447][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.07-06.56.08:447][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.07-06.56.08:448][909]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.12.07-06.56.08:448][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.12.07-06.56.08:451][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.12.07-06.56.08:451][909]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.12.07-06.56.08:452][909]LogInit: FAudioDevice initialized with ID 3.
+[2023.12.07-06.56.08:452][909]LogAudio: Display: Audio Device (ID: 3) registered with world 'FightingGame'.
+[2023.12.07-06.56.08:452][909]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.07-06.56.08:456][909]LogLoad: Game class is 'fightinggamemode_C'
+[2023.12.07-06.56.08:457][909]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FightingGame.FightingGame up for play (max tick rate 60) at 2023.12.07-01.56.08
+[2023.12.07-06.56.08:457][909]LogWorld: Bringing up level for play took: 0.000906
+[2023.12.07-06.56.08:462][909]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2023.12.07-06.56.08:471][909]PIE: Server logged in
+[2023.12.07-06.56.08:472][909]PIE: Play in editor total start time 0.143 seconds.
+[2023.12.07-06.56.18:868][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-06.56.18:868][215]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FightingGame
+[2023.12.07-06.56.18:868][215]LogWorld: UWorld::CleanupWorld for FightingGame, bSessionEnded=true, bCleanupResources=true
+[2023.12.07-06.56.18:869][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-06.56.18:918][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.07-06.56.18:924][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.07-06.56.18:936][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.07-06.56.18:937][215]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.07-06.56.18:937][215]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.07-06.56.18:943][215]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.07-06.56.18:975][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.12.07-06.56.19:161][216]LogPlayLevel: Display: Destroying online subsystem :Context_2
